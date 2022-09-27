@@ -44,8 +44,8 @@ function CharList(props) {
   };
 
   const onError = () => {
-    setError((error) => true);
-    setLoading((loading) => false);
+    setError(true);
+    setLoading(false);
   };
 
   const renderItems = (arr) => {
